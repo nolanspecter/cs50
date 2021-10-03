@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: When running all three algorithms on the best case with 50000 numbers, this algorithm performed the fastest. In theory Bubble sort has the lower bound running time is n which is the lowest of 3 algorithms
+
+sort2 uses: Merged Sort
+
+How do you know?: When running all three algorithms on the reversed and random cases with 5000 numbers (i.e. worst and standard scenerios), this algorithm took the the least time. In theory Merged Sort would performed the best in these situations.
+
+sort3 uses: Selection Sort
+
+How do you know?: By elimination and also because when tested on sorted set this one performed the worst as it in theory has the complexity of O(n^2) in the best case scenario. For the other to scenarios, it stayed at the middle and roughly the same with the first one: sort1
